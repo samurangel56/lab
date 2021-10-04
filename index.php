@@ -4,4 +4,5 @@ $serverName = "tcp:17051809.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 if($conn){echo 'exito';}
 else{echo 'fail';die( print_r( sqlsrv_errors(), true));}
+echo 'hola mundo';
 ?>
