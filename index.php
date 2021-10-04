@@ -3,5 +3,5 @@ $connectionInfo = array("UID" => "samu", "pwd" => "$4muD4t4", "Database" => "lab
 $serverName = "tcp:17051809.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 if($conn){echo('exito');}
-else{echo $conn;}
+else{echo('fail');}
 ?>
